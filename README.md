@@ -15,7 +15,7 @@ cache.get(2); // -1
 
 | PropType     | input                      | default |
 |:-------------|----------------------------|---------|
-| LFUCache     | number                     | 0       | 
-| put          | key: number, value: number | 24      | 
-| get          | key: number                | 24      | 
+| LFUCache     | number                     | -       | 
+| put          | key: number, value: number | -       | 
+| get          | key: number                | -       | 
 
