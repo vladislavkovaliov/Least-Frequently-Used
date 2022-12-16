@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LFUCache = void 0;
 class LFUCache {
     constructor(capacity) {
         this.cache = new Map();
@@ -67,6 +69,5 @@ class LFUCache {
         }
     }
 }
-
 exports.LFUCache = LFUCache;
 //# sourceMappingURL=index.js.map
