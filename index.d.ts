@@ -4,4 +4,4 @@ declare module 'least-frequently-used' {
         get(key: number): number;
         put(key: number, value: number): void;
     }
-};
+}
