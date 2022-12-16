@@ -1,9 +1,9 @@
 {
   "name": "least-frequently-used",
   "version": "0.0.0-development",
-  "description": "Based configured template with Semantic Relase",
+  "description": "Implementation of LFU from Leetcode with tests",
   "private": false,
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "commit": "cz",
     "test": "jest",
