@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "Implementation of LFU from Leetcode with tests",
   "private": false,
-  "main": "dist/cjs/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "rollup": "rollup -c",
     "commit": "cz",
@@ -56,11 +56,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vladislavkovaliov/Least-Frequently-Used.git"
-  },
-  "module": "dist/esm/index.js",
-  "files": [
-    "dist"
-  ],
-  "types": "dist/index.d.ts",
-  "type": "module"
+  }
 }
